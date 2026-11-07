@@ -2,7 +2,7 @@ import { SERVER_SCHEMA_URL } from '../constants.js';
 import type { AigentifyConfig } from '../config.js';
 
 export function generateServerJson(config: AigentifyConfig): string {
-  const serverName = config.name.includes('/') ? config.name : `io.github.pooriaarab/${config.name.toLowerCase().replace(/[^a-z0-9._-]+/g, '-')}`;
+  const serverName = config.name.includes('/') ? config.name : `io.github.itsryanarmani/${config.name.toLowerCase().replace(/[^a-z0-9._-]+/g, '-')}`;
   const server: Record<string, unknown> = {
     $schema: SERVER_SCHEMA_URL,
     name: serverName,
