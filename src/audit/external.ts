@@ -4,7 +4,7 @@ import { ok } from './shared.js';
 interface ProbeResult { found: boolean; errored: boolean }
 
 // Wikimedia and other registries require a descriptive User-Agent with a contact URL.
-const EXTERNAL_UA = 'aigentify/0.4 (+https://github.com/pooriaarab/aigentify)';
+const EXTERNAL_UA = 'aigentify/0.4 (+https://github.com/itsryanarmani/aigentify)';
 
 // Sentinel distinguishing "the registry call failed" (rate-limited, timed out, 5xx) from
 // "the registry answered and the product isn't listed" — the two must not be conflated,

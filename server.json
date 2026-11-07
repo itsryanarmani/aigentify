@@ -4,7 +4,7 @@
   "description": "Audit and generate agent-native product surfaces",
   "version": "0.1.2",
   "repository": {
-    "url": "https://github.com/pooriaarab/aigentify",
+    "url": "https://github.com/itsryanarmani/aigentify",
     "source": "github"
   },
   "packages": [

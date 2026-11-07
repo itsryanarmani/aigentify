@@ -21,10 +21,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pooriaarab/aigentify.git"
+    "url": "git+https://github.com/itsryanarmani/aigentify.git"
   },
-  "homepage": "https://github.com/pooriaarab/aigentify",
-  "bugs": "https://github.com/pooriaarab/aigentify/issues",
+  "homepage": "https://github.com/itsryanarmani/aigentify",
+  "bugs": "https://github.com/itsryanarmani/aigentify/issues",
   "keywords": [
     "agent-readiness",
     "ai-agents",
